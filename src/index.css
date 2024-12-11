@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.Nav-Item{
+@apply  hover:text-yellow-500 transition duration-300 ;
+} 
+
+.Topbar-text{
+  @apply text-white;
+}
+
+.Topbar-icon{
+  @apply flex items-center gap-2;
+}
+
+.all-Button{
+  @apply py-2 px-5 bg-yellow-500 text-black font-semibold border hover:text-white border-yellow-500  hover:bg-transparent transition duration-300;
+}
+
+.sub-Heading{
+  @apply  text-3xl lg:text-4xl font-bold  mb-4;
+}
+
+.bottom-Line{
+  @apply w-10 h-1 bg-yellow-500 mb-6 rounded-md ;
+}
