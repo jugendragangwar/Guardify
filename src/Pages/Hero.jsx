@@ -1,5 +1,5 @@
 import React from 'react';
-import Heroimg from '../assets/Hero-bg.jpg';
+import Heroimg from '../assets/hero-bg.jpg';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
