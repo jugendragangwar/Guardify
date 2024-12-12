@@ -5,10 +5,10 @@ import Img3 from '../assets/t3.jpg';
 
 const Team = () => {
     return (
-        <section className="py-12 text-center">
+        <section className="py-12 text-center mx-4 md:container md:mx-auto  mt-10 md:mt-20">
             <h1 className="sub-Heading text-slate-900">Our Guards</h1>
             <div className="bottom-Line mx-auto "></div>
-            <p className="text-gray-700 mb-8 w-2/3 mx-auto">
+            <p className="text-gray-700 text-left mb-8 md:w-2/3 mx-auto">
                 Lorem ipsum dolor sit amet, non odio tincidunt ut ante, lorem a euismod suspendisse vel, sed quam nulla mauris iaculis.
                 Erat eget vitae malesuada, tortor tincidunt porta lorem lectus.
             </p>

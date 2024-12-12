@@ -27,11 +27,11 @@ const Services = () => {
     ];
 
     return (
-        <section className="py-12 bg-[#1C1C1C] text-center">
+        <section className="py-12 bg-[#1C1C1C] text-center ">
             <h1 className="sub-Heading text-white">Our Services</h1>
             <div className="bottom-Line mx-auto "></div>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl  mx-4 md:container md:mx-auto  mt-10 md:mt-20">
                 {/* Dynamically render services */}
                 {servicesData.map((service) => (
                     <div key={service.id} className="bg-white p-6">

@@ -34,7 +34,7 @@ const Hero = () => {
 
     return (
         <section
-            className="relative w-full h-screen bg-cover bg-center flex items-center justify-center"
+            className="relative w-full py-24 sm:py-0 sm:h-screen bg-cover bg-center flex items-center justify-center"
             style={{ backgroundImage: `url(${Heroimg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
         >
             <div className="absolute inset-0 bg-black opacity-50"></div>
@@ -44,7 +44,7 @@ const Hero = () => {
                         <div key={index} className="flex flex-col items-center justify-center   text-white">
                             <h1 className="text-4xl md:text-6xl font-bold mb-4">{slide.title}</h1>
                             <h3 className='text-4xl md:text-6xl font-bold mb-4 text-yellow-500'>OUR RESPONSBILITY</h3>
-                            <h2 className="text-lg md:text-2xl mb-6 w-1/2">{slide.subtitle}</h2>
+                            <h2 className="text-lg md:text-2xl mb-6 sm:w-1/2">{slide.subtitle}</h2>
                             <div className="flex gap-4">
                                 <a
                                     href="#read-more"

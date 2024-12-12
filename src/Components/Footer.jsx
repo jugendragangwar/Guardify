@@ -15,9 +15,9 @@ const Footer = () => {
                 <div>
                     <h3 className="text-xl font-bold mb-4">Useful Links</h3>
                     <ul>
-                        <li>Item 1</li>
-                        <li>Item 1</li>
-                        <li>Item 1</li>
+                        <li>Link 1</li>
+                        <li>Link 1</li>
+                        <li>Link 1</li>
                     </ul>
                 </div>
                 <div>
@@ -33,19 +33,18 @@ const Footer = () => {
                     </p>
                 </div>
             </div>
-            <div className="max-w-7xl mx-auto px-4 mt-8 flex justify-between items-center border-t-2 pt-6">
+            <div className="max-w-7xl mx-auto px-4 mt-8 flex flex-col md:flex-row justify-between items-center border-t-2 pt-6">
                 <div className="flex items-center gap-4">
-                    <h3 className="text-lg font-bold">Newsletter</h3>
                     <input
                         type="email"
                         placeholder="Enter your email"
-                        className="py-2 px-4 outline-yellow-500 text-black"
+                        className="py-2 w-[60%] md:w-full px-4 outline-yellow-500 text-black"
                     />
                     <button className="all-Button">
                         Subscribe
                     </button>
                 </div>
-                <div className="flex gap-4">
+                <div className="flex gap-4 mt-6">
                     <FaFacebook size={40} className="p-1 border-2 border-gray-300 rounded-full hover:bg-blue-500 hover:text-white transition-all" />
                     <FaTwitter size={40} className="p-1 border-2 border-gray-300 rounded-full hover:bg-blue-400 hover:text-white transition-all" />
                     <FaYoutube size={40} className="p-1 border-2 border-gray-300 rounded-full hover:bg-red-500 hover:text-white transition-all" />
